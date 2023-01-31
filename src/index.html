@@ -11,18 +11,64 @@
 
 <body>
   <header class="header header-main">
-    <nav class="header__nav">
-      <div class="nav__logo">
-        <img src="./assets/images/hse-logo.svg" alt="HSE logo" class="logo__image" width="78" height="32">
-      </div>
-      <ul class="nav__list">
-        <li class="nav__item">
-          <a href="./contact.html" class="nav__link header__nav-link">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav class="header__nav">
+        <div class="nav__logo">
+          <img class="logo__image" src="./assets/images/hse-logo.svg" alt="HSE logo" width="78" height="32">
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link header__nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <main class="main main-main">main</main>
+  <main class="main main-main">
+    <section class="section main__section section-person">
+      <div class="container">
+        <div class="section-person__info">
+          <div class="columns">
+            <div class="column column-left short-info">
+              <div class="short-info__avatar">
+                <img class="short-info__image" src="./assets/images/anton-avatar.jpg" alt="Anton Fomichev avatar"
+                  width="260" height="260">
+              </div>
+              <h1 class="title section__title short-info__title">Anton Fomichev</h1>
+              <div class="like short-info__like">
+                <label class="like__label" for="like">Like</label>
+                <input class="like__button" type="checkbox" name="like" id="like">
+              </div>
+              <p class="subtitle section__subtitle short-info__subtitle">BS'24 HSE, Moscow (～￣▽￣)～</p>
+            </div>
+            <div class="column column-right hobbies">
+              <p class="text hobbies__text">
+                Hi, my name is Fomichev Anton. I am studying interface software development and math.
+              </p>
+              <h2 class="hobbies__title">My hobbies are:</h2>
+              <ul class="list hobbies__list">
+                <li class="list__item hobbies__item">
+                  <h3 class="list-item__title">👟 Urban culture</h3>
+                  <p class="list-item__text">I feel excited about rap music, sneakers and street art.</p>
+                </li>
+                <li class="list__item hobbies__item">
+                  <h3 class="list-item__title">🧳 Travelling</h3>
+                  <p class="list-item__text">I have visited many countries in Europe and Asia. My favourite one is
+                    Spain.
+                  </p>
+                </li>
+                <li class="list__item hobbies__item">
+                  <h3 class="list-item__title">🏀 Sports</h3>
+                  <p class="list-item__text">My favorite way to get away from work is to play basketball.</p>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
   <footer class="footer footer-main"></footer>
 </body>
 
