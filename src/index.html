@@ -12,16 +12,26 @@
 <body>
   <header class="header header-main">
     <div class="container">
-      <nav class="header__nav">
+      <div class="header__inner">
         <div class="nav__logo">
           <img class="logo__image" src="./assets/images/hse-logo.svg" alt="HSE logo" width="78" height="32">
         </div>
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="link nav__link header__nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="link nav__link header__nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="burger header__burger" type="button" style="display: none;">
+          <span class="visually-hidden">Open burger menu</span>
+          <span class="burger__inner">
+            <span class="burger__item"></span>
+            <span class="burger__item"></span>
+            <span class="burger__item"></span>
+          </span>
+        </button>
+      </div>
     </div>
   </header>
   <main class="main main-main">
@@ -35,15 +45,23 @@
                   width="260" height="260">
               </div>
               <h1 class="title section__title short-info__title">Anton Fomichev</h1>
+              <p class="text short-info__status">
+                BS'24 HSE, Moscow (～￣▽￣)～<br>
+                <code>
+                  while(true){
+                  startCoding();
+                  }
+                </code>
+              </p>
               <div class="like short-info__like">
                 <label class="like__label" for="like">Like</label>
                 <input class="like__button" type="checkbox" name="like" id="like">
               </div>
-              <p class="subtitle section__subtitle short-info__subtitle">BS'24 HSE, Moscow (～￣▽￣)～</p>
+
             </div>
             <div class="column column-right hobbies">
               <p class="text hobbies__text">
-                Hi, my name is Fomichev Anton. I am studying interface software development and math.
+                Hi, my name is Fomichev Anton. I study interface software development and math.
               </p>
               <h2 class="hobbies__title">My hobbies are:</h2>
               <ul class="list hobbies__list">
@@ -109,6 +127,7 @@
     </section>
   </main>
   <footer class="footer footer-main"></footer>
+  <script src="./assets/scripts/main.js" type="module"></script>
 </body>
 
 </html>

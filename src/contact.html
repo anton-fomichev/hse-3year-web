@@ -12,16 +12,26 @@
 <body>
   <header class="header header-contact">
     <div class="container">
-      <nav class="header__nav">
+      <div class="header__inner">
         <div class="nav__logo">
           <img class="logo__image" src="./assets/images/hse-logo.svg" alt="HSE logo" width="78" height="32">
         </div>
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="link nav__link header__nav-link" href="./index.html">Main</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="link nav__link header__nav-link" href="./index.html">Main</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="burger header__burger" type="button" style="display: none;">
+          <span class="visually-hidden">Open burger menu</span>
+          <span class="burger__inner">
+            <span class="burger__item"></span>
+            <span class="burger__item"></span>
+            <span class="burger__item"></span>
+          </span>
+        </button>
+      </div>
     </div>
   </header>
   <main class="main main-contact">contact</main>
