@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "browser-sync start --server src --no-notify --no-ui --cwd src --files index.html,styles/**/*",
+    "linthtml": "npx linthtml src/*.html",
+    "stylelint": "npx stylelint src/**/*.css",
+    "lint": "npm run linthtml && npm run stylelint"
+  },
+  "devDependencies": {
+    "@linthtml/linthtml": "0.8.8",
+    "browser-sync": "^2.26.7",
+    "linthtml-config-htmlacademy": "^1.0.3",
+    "stylelint": "^14.13.0",
+    "stylelint-config-htmlacademy": "^1.1.2"
+  }
+}
