@@ -1,6 +1,85 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   margin: 0;
   background-color: var(--white);
   color: var(--primary-blue);
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+}
+
+a,
+button {
+  text-decoration: none;
+  font-size: inherit;
+}
+
+
+.main {
+  margin-top: 4rem;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.link {
+  color: var(--primary-blue);
+  transition: color var(--transition-fast);
+  align-items: center;
+}
+
+.link::before {
+  content: "";
+  float: left;
+  height: 1.5em;
+  width: 1em;
+}
+
+.link[target="_blank"]::before {
+  background: url("../images/icons/external-link.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.link:hover {
+  color: var(--accent-orange);
+}
+
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 0.3em;
+}
+
+code {
+  font-family: monospace;
 }

@@ -1,0 +1,7 @@
+:root {
+  --primary-blue: #102d69;
+  --white: #ffffff;
+  --accent-orange: #ffa96f;
+  --transition-fast: 0.1s ease;
+  --black-tr: rgba(0, 0, 0, 0.1);
+}

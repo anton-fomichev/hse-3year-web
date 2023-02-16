@@ -1,4 +1,6 @@
 @import url("./_reset.css");
-@import url("./_colors.css");
+@import url("./_vars.css");
 @import url("./_defaults.css");
-@import url("./_header.css");
+@import url("./components/_header.css");
+@import url("./components/_section.css");
+@import url("./components/_footer.css");
