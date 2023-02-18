@@ -17,6 +17,8 @@ a,
 button {
   text-decoration: none;
   font-size: inherit;
+  cursor: pointer;
+  padding: 0;
 }
 
 
@@ -30,20 +32,30 @@ button {
   padding: 0 1rem;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .link {
   color: var(--primary-blue);
   transition: color var(--transition-fast);
   align-items: center;
 }
 
-.link::before {
+.link[target="_blank"]::before {
   content: "";
   float: left;
   height: 1.5em;
   width: 1em;
-}
-
-.link[target="_blank"]::before {
   background: url("../images/icons/external-link.svg");
   background-position: center;
   background-size: contain;

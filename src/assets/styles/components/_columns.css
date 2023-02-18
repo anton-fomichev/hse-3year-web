@@ -1,0 +1,5 @@
+.columns {
+  display: flex;
+  gap: 5em;
+  flex-wrap: wrap;
+}

@@ -3,5 +3,7 @@
   --white: #ffffff;
   --accent-orange: #ffa96f;
   --transition-fast: 0.1s ease;
-  --black-tr: rgba(0, 0, 0, 0.1);
+  --black-tr: rgba(0, 0, 0, 0.2);
+  --code-bg: #1e1e1e;
+  --code-clr: #9cdcf1;
 }

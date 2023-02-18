@@ -1,0 +1,36 @@
+.short-info__buttons {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.short-info__button {
+  width: 2em;
+  height: 2em;
+  border: 0;
+  background-color: transparent;
+}
+
+.short-info__button:focus,
+.short-info_button:hover {
+  outline: none;
+}
+
+.short-info__button:focus .short-info__icon,
+.short-info__button:hover .short-info__icon {
+  fill: var(--accent-orange);
+  transform: scale(1.03) translateY(-5%);
+}
+
+.short-info__icon {
+  width: 100%;
+  height: 100%;
+  transition: all var(--transition-fast);
+  fill: var(--black-tr);
+}
+
+.short-info__like {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+}

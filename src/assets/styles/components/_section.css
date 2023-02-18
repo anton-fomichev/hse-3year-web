@@ -6,3 +6,32 @@
   padding-top: 2rem;
 }
 
+.short-info__image {
+  border-radius: 50%;
+}
+
+.short-info__title {
+  margin-bottom: 0;
+}
+
+.short-info__status {
+  font-family: monospace;
+  background-color: var(--code-bg);
+  padding: 0.25em 0.5em;
+  color: var(--code-clr);
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 380px;
+}
+
+.hobbies__item .list-item__title {
+  margin-bottom: 0;
+}
+
+.hobbies__item .list-item__text {
+  font-size: 0.88em;
+}
