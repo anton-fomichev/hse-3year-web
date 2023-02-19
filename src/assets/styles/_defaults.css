@@ -54,12 +54,13 @@ button {
 .link[target="_blank"]::before {
   content: "";
   float: left;
-  height: 1.5em;
+  height: 1.5rem;
   width: 1em;
   background: url("../images/icons/external-link.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-right: 0.1rem;
 }
 
 .link:hover {
@@ -87,6 +88,7 @@ h5,
 h6 {
   margin-bottom: 0.5em;
 }
+
 
 p {
   margin-bottom: 0.3em;
