@@ -16,6 +16,10 @@
 > Файловая структура проекта, расположение файлов и папок
 
 ```bash
+├── .gitignore
+├── .linthtmlrc
+├── .nojekyll
+├── .stylelintrc
 ├── Readme.md
 ├── package-lock.json
 ├── package.json
