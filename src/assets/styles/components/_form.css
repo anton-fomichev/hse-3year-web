@@ -1,0 +1,85 @@
+.contact-me {
+  min-height: calc(100vh - 8.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-me__title {
+  margin-bottom: 2rem;
+}
+
+.contact-me__form {
+  width: 50%;
+  max-width: 30rem;
+  min-width: 18rem;
+}
+
+.form__fieldset {
+  margin-bottom: 0.75rem;
+}
+
+
+.fieldset__legend {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.form__label {
+  display: block;
+  font-size: 0.88em;
+  margin-bottom: 0.13rem;
+}
+
+.form__input,
+.form__select {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0.63em 1em;
+  line-height: 1;
+  border-radius: 0.25em;
+  border: 2px solid var(--black-tr);
+  width: 100%;
+  font-family: inherit;
+}
+
+.form__select {
+  background: var(--white);
+  appearance: none;
+  cursor: pointer;
+  position: relative;
+  background-image: url("../../images/icons/material-symbols_arrow-drop-down.svg");
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+}
+
+.select__option[value=""] {
+  background-color: var(--black-tr);
+}
+
+.form__input::placeholder {
+  color: var(--black-tr);
+}
+
+
+.form-specify {
+  resize: none;
+  width: 100%;
+  font-family: inherit;
+  padding: 0.63em 1em;
+  line-height: 1.5;
+}
+
+.form__button {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.13rem;
+  border-radius: 2rem;
+}

@@ -3,6 +3,7 @@
   color: var(--white);
   padding-top: 1rem;
   padding-bottom: 0.5rem;
+  height: 4.5rem;
 }
 
 .footer__link {
