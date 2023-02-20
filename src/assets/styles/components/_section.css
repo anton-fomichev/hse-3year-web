@@ -102,3 +102,8 @@
 .miem__programme {
   margin-bottom: 2rem;
 }
+
+.miem__text,
+.article__text {
+  font-size: 0.88em;
+}
