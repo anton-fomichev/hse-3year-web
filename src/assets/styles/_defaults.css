@@ -63,10 +63,11 @@ button {
   margin-right: 0.1rem;
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
+  outline: none;
   color: var(--accent-orange);
 }
-
 
 h1 {
   font-size: 2rem;

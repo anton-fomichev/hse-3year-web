@@ -80,13 +80,25 @@
   height: 100%;
 }
 
-.projects-item__link:focus {
-  outline: none;
-  color: var(--accent-orange);
-}
-
 .projects__item:focus-within,
 .projects__item:hover {
   transform: translateY(-0.5em);
   box-shadow: 0 0.5em 0 var(--black-tr);
+}
+
+/* MIEM */
+
+.miem__text {
+  width: 50%;
+  min-width: 300px;
+}
+
+.miem__programme {
+  width: 80%;
+  min-width: 300px;
+}
+
+.miem__text,
+.miem__programme {
+  margin-bottom: 2rem;
 }
