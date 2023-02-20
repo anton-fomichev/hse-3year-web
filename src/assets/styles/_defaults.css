@@ -47,25 +47,28 @@ button {
 .link {
   color: var(--primary-blue);
   transition: color var(--transition-fast);
-  align-items: center;
 }
 
-.link[target="_blank"]::before {
-  content: "";
-  float: left;
-  height: 1.5rem;
+.icon-link {
+  height: 1em;
   width: 1em;
-  background: url("../images/icons/external-link.svg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 0.1rem;
+  vertical-align: middle;
+  margin-right: 0.13em;
+  margin-bottom: 0.13em;
+  fill: var(--primary-blue);
+  transition: fill var(--transition-fast);
 }
+
 
 .link:hover,
 .link:focus {
   outline: none;
   color: var(--accent-orange);
+}
+
+.link:hover .icon-link,
+.link:focus .icon-link {
+  fill: var(--accent-orange);
 }
 
 h1 {

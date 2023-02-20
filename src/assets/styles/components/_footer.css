@@ -8,3 +8,7 @@
 .footer__link {
   color: var(--white);
 }
+
+.footer__link .icon-link {
+  fill: var(--white);
+}
