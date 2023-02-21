@@ -48,6 +48,10 @@
   scroll-behavior: smooth;
 }
 
+.projects__list::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
 
 .projects__item {
   max-width: 20.63em;

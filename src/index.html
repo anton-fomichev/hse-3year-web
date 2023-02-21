@@ -10,6 +10,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/styles/style.css">
+  <style>
+    *,
+    *::after,
+    *::before {
+      box-sizing: border-box;
+    }
+  </style>
 </head>
 
 <body>
@@ -109,7 +116,7 @@
     <section class="section main__section projects">
       <div class="container">
         <h2 class="title section__title projects__title">Projects</h2>
-        <ul class="list projects__list">
+        <ul class="list projects__list" style="-ms-overflow-style: none;scrollbar-width: none;">
           <li class="list__item projects__item">
             <h3 class="list-item__title projects-item__title">Система проверки целостности кабелей</h3>
             <p class="text list-item__text projects-item__text"><b>Year: </b>2021/2022</p>
