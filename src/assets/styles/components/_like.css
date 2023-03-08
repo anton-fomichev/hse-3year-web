@@ -1,0 +1,5 @@
+@import url("../_vars.css");
+
+.like.active .icon-like {
+  fill: var(--accent-orange);
+}

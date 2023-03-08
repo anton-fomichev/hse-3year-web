@@ -11,12 +11,10 @@
   background-color: transparent;
 }
 
-.short-info__button:focus,
 .short-info_button:hover {
   outline: none;
 }
 
-.short-info__button:focus .short-info__icon,
 .short-info__button:hover .short-info__icon {
   fill: var(--accent-orange);
   transform: scale(1.03) translateY(-5%);
