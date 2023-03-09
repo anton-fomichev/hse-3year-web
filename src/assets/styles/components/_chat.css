@@ -1,0 +1,14 @@
+.main__chat {
+  width: 400px;
+  height: 500px;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 10;
+}
+
+@media (max-width: 440px) {
+  .main__chat {
+    width: 300px;
+  }
+}

@@ -20,6 +20,19 @@
   <script src="https://api-maps.yandex.ru/2.1/?apikey=80e19cdd-d35c-4986-ae56-487c4a2a03cf&lang=en_US"
     type="text/javascript">
     </script>
+  <script>
+    (function (t, a, l, k, j, s) {
+      s = a.createElement('script'); s.async = 1; s.src = "https://cdn.talkjs.com/talk.js"; a.head.appendChild(s)
+        ; k = t.Promise; t.Talk = {
+          v: 3, ready: {
+            then: function (f) {
+              if (k) return new k(function (r, e) { l.push([f, r, e]) }); l
+                .push([f])
+            }, catch: function () { return k && new k() }, c: l
+          }
+        };
+    })(window, document, []);
+  </script>
 </head>
 
 <body>
@@ -46,6 +59,11 @@
     </div>
   </header>
   <main class="main main-main">
+    <div class="main__chat">
+      <div id="talkjs-container" style="width: 100%; height: 100%">
+        <i>Loading chat...</i>
+      </div>
+    </div>
     <section class="section main__section section-person">
       <div class="container">
         <div class="section-person__info">
